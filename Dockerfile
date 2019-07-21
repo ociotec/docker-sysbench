@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL maintainer="Emilio González Montaña <emilio@ociotec.c>"
+LABEL maintainer="Emilio González Montaña <emilio@ociotec.com>"
 
 RUN apt-get update && \
     apt-get install -y sysbench && \
